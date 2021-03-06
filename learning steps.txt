@@ -1,2 +1,43 @@
 git help
 Git init
+
+git remote add origin master https://github.com/abhishekchouksey/GitCmdTest.git
+
+Git Status
+
+ git add .
+
+git commit - m "first commit"
+
+
+-- Added a file to here to show a git tracking 
+
+
+git add "some file.txt"
+
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   some file.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   learning steps.txt
+
+git status
+
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   learning steps.txt
+	new file:   some file.txt
+	new file:   some other files.txt
+
